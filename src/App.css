@@ -76,3 +76,11 @@ img{
     font-size: 25px;
     color: darkgreen;
 }
+
+.imgbox{
+    width: 28px;
+    height: 28px;
+}
+.cf{
+    font-size: 18px;
+}
