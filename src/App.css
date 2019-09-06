@@ -67,3 +67,12 @@ img{
 .unorderedlist{
     list-style-type: none;
 }
+.smalltxt{
+    font-size: 10px;
+    color: black;
+}
+
+.smalltext{
+    font-size: 25px;
+    color: darkgreen;
+}

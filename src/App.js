@@ -39,7 +39,7 @@ const App = () => {
 
   return (
     <div className="text-center">
-      <h1 className="my-3">Online Delicious Recipes from API</h1>
+      <h1 className="my-3">Online Delicious Recipes from<span className="smalltext"> edamam </span> API<span className="smalltxt">~ subhom</span></h1>
       <form onSubmit={getSearch} className="search-form">
         <input className="search-bar" type="text" value={search} onChange={updateSearch} placeholder='Search any dish . . .' />
         <button className="search-button" type="submit">Search</button>
