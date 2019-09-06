@@ -2,6 +2,9 @@ import React, { useEffect, useState } from 'react';
 import './App.css';
 import Recipe from './Recipe';
 import Food from './Food';
+import About from './About';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+
 
 const App = () => {
 
@@ -48,7 +51,7 @@ const App = () => {
             key={recipe.recipe.label}
             title={recipe.recipe.label}
             calories={recipe.recipe.calories}
-            ingredients={recipe.recipe.ingredients}
+            // ingredients={recipe.recipe.ingredients}
             image={recipe.recipe.image} />
         ))};</div>
     </div>
