@@ -64,3 +64,6 @@ img{
     padding: 3%;
     border-radius: 10px;
 }
+.unorderedlist{
+    list-style-type: none;
+}
