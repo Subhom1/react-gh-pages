@@ -1,21 +1,20 @@
-import React from 'react';
+// import React from 'react';
+// import Food from './Food';
 
 
-const About = ({ title, calories, image, ingredients }) => {
+// const About = () => {
 
-    return (
-        <div className="d-flex flex-column align-items-center justify-content-center m-4 p-2 bg-white">
-            <h1>{title}</h1>
-            <h5>{calories.toFixed(2)} Cal</h5>
-            <ol>
-                {ingredients.map(ingredient => (
-                    <li>{ingredient.text}</li>
-                ))}
-            </ol>
-            <img src={image} alt="" />
+//     return (
 
-        </div>
-    );
-}
+//         <Food
+//             key={recipe.recipe.label}
+//             title={recipe.recipe.label}
+//             calories={recipe.recipe.calories}
+//             ingredients={recipe.recipe.ingredients}
+//             image={recipe.recipe.image} />
+//     );
+// }
 
-export default About;
+
+
+// export default About;

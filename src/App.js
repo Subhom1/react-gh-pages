@@ -1,9 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import './App.css';
 import Recipe from './Recipe';
-import Food from './Food';
-import About from './About';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+// import About from './About';
+// import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 
 const App = () => {
@@ -42,18 +41,20 @@ const App = () => {
     <div className="text-center">
       <h1 className="my-3">Online Delicious Recipes from API</h1>
       <form onSubmit={getSearch} className="search-form">
-        <input className="search-bar" type="text" value={search} onChange={updateSearch} />
+        <input className="search-bar" type="text" value={search} onChange={updateSearch} placeholder='Search any dish . . .' />
         <button className="search-button" type="submit">Search</button>
       </form>
-      <div className="row crow" path="/food" exact component={Food}>
+
+      <div className="row crow">
         {recipes.map(recipe => (
           <Recipe
             key={recipe.recipe.label}
             title={recipe.recipe.label}
             calories={recipe.recipe.calories}
-            // ingredients={recipe.recipe.ingredients}
+            ingredients={recipe.recipe.ingredients}
             image={recipe.recipe.image} />
         ))};</div>
+
     </div>
   );
 }

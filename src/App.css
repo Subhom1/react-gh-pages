@@ -52,11 +52,15 @@ h1{
     cursor: pointer;
 }
 img{
-    border-radius: 8px;
-    width: 250px;
-    height:250px;
+    border-radius: 5px;
+    /* width: 350px; */
+    /* height:350px; */
 }
 .crow{
     justify-content: center;
-    cursor: pointer;
+}
+
+.recipecard{ cursor: pointer;
+    padding: 3%;
+    border-radius: 10px;
 }
