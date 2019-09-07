@@ -43,7 +43,7 @@ const App = () => {
       <form onSubmit={getSearch} className="search-form">
         <input className="search-bar" type="text" value={search} onChange={updateSearch} placeholder='Search any dish . . .' />
         <button className="search-button" type="submit">Search</button>
-        <h6 className="cf">Made with <img src={"logo192.png"} className='imgbox'></img>React</h6>
+        <h6 className="cf">Made with <img src={"logo192.png"} className='imgbox' />React</h6>
       </form>
 
       <div className="row crow">
