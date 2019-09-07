@@ -62,9 +62,15 @@ img{
     justify-content: center;
 }
 
-.recipecard{ cursor: pointer;
+.recipecard{ 
+    cursor: pointer;
     padding: 3%;
     border-radius: 10px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+ .search-bar, .search-button{
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075);
 }
 .unorderedlist{
     list-style-type: none;
