@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/food-recipe/static/css/main.dcadbd66.chunk.css",
+    "main.css": "/food-recipe/static/css/main.6d825de0.chunk.css",
     "main.js": "/food-recipe/static/js/main.f50d9167.chunk.js",
     "main.js.map": "/food-recipe/static/js/main.f50d9167.chunk.js.map",
     "runtime~main.js": "/food-recipe/static/js/runtime~main.13c86c1e.js",
@@ -8,8 +8,8 @@
     "static/js/2.be27b5ad.chunk.js": "/food-recipe/static/js/2.be27b5ad.chunk.js",
     "static/js/2.be27b5ad.chunk.js.map": "/food-recipe/static/js/2.be27b5ad.chunk.js.map",
     "index.html": "/food-recipe/index.html",
-    "precache-manifest.baebe9bf8f25802ead444508f87e496b.js": "/food-recipe/precache-manifest.baebe9bf8f25802ead444508f87e496b.js",
+    "precache-manifest.d8a4c3b1757701189e8a9045dade0e15.js": "/food-recipe/precache-manifest.d8a4c3b1757701189e8a9045dade0e15.js",
     "service-worker.js": "/food-recipe/service-worker.js",
-    "static/css/main.dcadbd66.chunk.css.map": "/food-recipe/static/css/main.dcadbd66.chunk.css.map"
+    "static/css/main.6d825de0.chunk.css.map": "/food-recipe/static/css/main.6d825de0.chunk.css.map"
   }
 }
